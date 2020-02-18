@@ -1,3 +1,5 @@
+# @author
+# Bala Murugan N G
 from flask import Flask
 import os
 
@@ -20,3 +22,6 @@ if __name__ == '__main__':
 		app.run(host='0.0.0.0', port=5000, debug=False)
 	else:
 		app.run(host='0.0.0.0', port=int(cf_port), debug=False)
+
+# @author
+# Bala Murugan N G
