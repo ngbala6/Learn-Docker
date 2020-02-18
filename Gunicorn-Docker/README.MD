@@ -13,6 +13,10 @@
 
 
 
-<!-- If driver error occured as said in "sample pics". Try to restart the docker and run the image -->
+If driver error occured as said in "sample pics". Try to restart the docker and run the image
 
-<!-- If you do not use -p <hostport>:<dockerport>, the docker port doesn't expose from the container environment -->
+If you do not use -p hostport:dockerport, the docker port doesn't expose from the container environment
+
+@author
+
+Bala Murugan N G
