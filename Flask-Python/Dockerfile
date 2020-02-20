@@ -10,16 +10,16 @@ ADD . /app
 RUN pip install -r requirements.txt
 
 # Finally this Command runs in docker container
-CMD ["gunicorn","-b","0.0.0.0:5000","app:app"]
+# CMD ["gunicorn","-b","0.0.0.0:5000","app:app"]
 
 
 # This command runs without using Gunicorn
-# CMD ["python","app.py"]
+CMD ["python","app.py"]
 
 
-@author
+# @author
 
-Bala Murugan N G
+# Bala Murugan N G
 
 
 
